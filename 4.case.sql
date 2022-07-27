@@ -1,0 +1,5 @@
+DECLARE @STR VARCHAR(100) = 'ABCDEFG'
+SET @STR = CASE WHEN LEN(@STR) > 5 THEN CONCAT(@STR, '...')
+                ELSE @STR
+            END
+PRINT(@STR) -- ABCDEFG...
