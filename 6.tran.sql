@@ -1,0 +1,10 @@
+BEGIN TRAN
+  SELECT 1
+
+/*
+  ROLLBACK
+*/
+
+/*
+  COMMIT
+*/
