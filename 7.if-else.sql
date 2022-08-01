@@ -1,0 +1,7 @@
+DECLARE @NUM INT = 1
+
+IF @NUM = 1 BEGIN
+  SET @NUM = 2
+END
+
+SELECT @NUM -- 2
